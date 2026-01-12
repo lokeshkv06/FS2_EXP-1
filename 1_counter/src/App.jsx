@@ -11,18 +11,6 @@ function App() {
       <button className="plus" onClick={() => setCount(count+1)}>count + 1</button>
       <button className="minus" onClick={() => setCount(count-1)}>count - 1</button>
     </div>
-    // <>
-    //   <div className="card">
-    //     <button onClick={() => setCount((count) => count + 1)}>
-    //       {count}
-    //     </button>
-    //   </div>
-    //   <div className="card">
-    //     <button onClick={() => setCount((count) => count - 1)}>
-    //       {count}
-    //     </button>
-    //   </div>
-    // </>
   )
 }
 
