@@ -17,18 +17,18 @@ h1{
   margin: 10px;
 }
 .plus{
-  background-color: rgb(0, 254, 0);
+  background-color: rgb(193, 217, 113);
 }
 
 .minus{
-  background-color: red;
+  background-color: rgb(113, 188, 217);
 }
 
 .plus:hover {
-  filter: drop-shadow(0 0 2em green);
+  filter: drop-shadow(0 0 2em rgb(193, 217, 113));
 }
 .minus:hover {
-  filter: drop-shadow(0 0 2em red);
+  filter: drop-shadow(0 0 2em rgb(113, 188, 217));
 }
 
 .cnt{
